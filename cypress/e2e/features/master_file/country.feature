@@ -61,7 +61,7 @@ Scenario: case6: ทดสอบส่วนการเพิ่ม Country ก
     And Click save
     Then Click confirm to save
 
-Scenario: case9: ทดสอบส่วนการเพิ่ม Country กรณีกรอก Country ISO Code และกดบันทึก
+Scenario: case7: ทดสอบส่วนการเพิ่ม Country กรณีกรอก Country ISO Code และกดบันทึก
     Given Open Website "http://203.154.82.165:6699/login"
     When Input user "dechbodin34@gmail.com" and password "dech0829299524TF"
     And Click Button login
@@ -73,7 +73,7 @@ Scenario: case9: ทดสอบส่วนการเพิ่ม Country ก
     And Click save
     Then Click confirm to save
 
-Scenario: case10: ทดสอบส่วนการเพิ่ม Country กรณีกรอก Country Name (EN) และกดบันทึก
+Scenario: case8: ทดสอบส่วนการเพิ่ม Country กรณีกรอก Country Name (EN) และกดบันทึก
     Given Open Website "http://203.154.82.165:6699/login"
     When Input user "dechbodin34@gmail.com" and password "dech0829299524TF"
     And Click Button login
@@ -85,7 +85,7 @@ Scenario: case10: ทดสอบส่วนการเพิ่ม Country �
     And Click save
     Then Click confirm to save
 
-Scenario: case11: ทดสอบส่วนการเพิ่ม Country กรณีกรอก Country Name (TH) และกดบันทึก
+Scenario: case9: ทดสอบส่วนการเพิ่ม Country กรณีกรอก Country Name (TH) และกดบันทึก
     Given Open Website "http://203.154.82.165:6699/login"
     When Input user "dechbodin34@gmail.com" and password "dech0829299524TF"
     And Click Button login
@@ -97,7 +97,7 @@ Scenario: case11: ทดสอบส่วนการเพิ่ม Country �
     And Click save
     Then Click confirm to save
 
-Scenario: case12: ทดสอบส่วนการเพิ่ม Country กรณีกรอก Currency และกดบันทึก
+Scenario: case10: ทดสอบส่วนการเพิ่ม Country กรณีกรอก Currency และกดบันทึก
     Given Open Website "http://203.154.82.165:6699/login"
     When Input user "dechbodin34@gmail.com" and password "dech0829299524TF"
     And Click Button login
@@ -108,7 +108,7 @@ Scenario: case12: ทดสอบส่วนการเพิ่ม Country �
     And Input currency only one fild
     And Click save
     Then Click confirm to save
-Scenario: case13: ทดสอบส่วนการเพิ่ม Country กรณีไม่กรอกฟิลด์ใดเลย และกดบันทึก
+Scenario: case11: ทดสอบส่วนการเพิ่ม Country กรณีไม่กรอกฟิลด์ใดเลย และกดบันทึก
     Given Open Website "http://203.154.82.165:6699/login"
     When Input user "dechbodin34@gmail.com" and password "dech0829299524TF"
     And Click Button login
@@ -119,7 +119,7 @@ Scenario: case13: ทดสอบส่วนการเพิ่ม Country �
     And Click save
     Then Click confirm to save
 
-Scenario: case14: ทดสอบส่วนการเพิ่ม Country กรณีกรอก Country ISO Code ซ้ำกับที่มีข้อมูลในระบบ
+Scenario: case12: ทดสอบส่วนการเพิ่ม Country กรณีกรอก Country ISO Code ซ้ำกับที่มีข้อมูลในระบบ
     Given Open Website "http://203.154.82.165:6699/login"
     When Input user "dechbodin34@gmail.com" and password "dech0829299524TF"
     And Click Button login
@@ -131,7 +131,7 @@ Scenario: case14: ทดสอบส่วนการเพิ่ม Country �
     And Click save
     Then Click confirm to save
 
-Scenario: case15: ทดสอบส่วนการยกเลิกการเพิ่ม Country และยืนยันการยกเลิก
+Scenario: case13: ทดสอบส่วนการยกเลิกการเพิ่ม Country และยืนยันการยกเลิก
     Given Open Website "http://203.154.82.165:6699/login"
     When Input user "dechbodin34@gmail.com" and password "dech0829299524TF"
     And Click Button login
@@ -143,7 +143,7 @@ Scenario: case15: ทดสอบส่วนการยกเลิกกา�
     And Click cancel
     Then Click confirm to save
 
-Scenario: case16: ทดสอบส่วนการแก้ไข Country กรณีแก้ไขรายละเอียดทุกฟิลด์ และกดบันทึก
+Scenario: case14: ทดสอบส่วนการแก้ไข Country กรณีแก้ไขรายละเอียดทุกฟิลด์ และกดบันทึก
     Given Open Website "http://203.154.82.165:6699/login"
     When Input user "dechbodin34@gmail.com" and password "dech0829299524TF"
     And Click Button login
@@ -155,7 +155,7 @@ Scenario: case16: ทดสอบส่วนการแก้ไข Country �
     And Click cancel
     Then Click confirm to save
 
-Scenario: case17: ทดสอบส่วนการแก้ไข Country กรณีแก้ไข Country ISO Code ซ้ำกับที่มีข้อมูลอยู่ในระบบ
+Scenario: case15: ทดสอบส่วนการแก้ไข Country กรณีแก้ไข Country ISO Code ซ้ำกับที่มีข้อมูลอยู่ในระบบ
     Given Open Website "http://203.154.82.165:6699/login"
     When Input user "dechbodin34@gmail.com" and password "dech0829299524TF"
     And Click Button login
@@ -167,7 +167,7 @@ Scenario: case17: ทดสอบส่วนการแก้ไข Country �
     And Click save
     Then Click confirm to save
 
-Scenario: case18: ทดสอบส่วนการยกเลิกการแก้ไข Country และยืนยันการยกเลิก
+Scenario: case16: ทดสอบส่วนการยกเลิกการแก้ไข Country และยืนยันการยกเลิก
     Given Open Website "http://203.154.82.165:6699/login"
     When Input user "dechbodin34@gmail.com" and password "dech0829299524TF"
     And Click Button login
@@ -179,7 +179,7 @@ Scenario: case18: ทดสอบส่วนการยกเลิกกา�
     And Click cancel
     Then Click confirm to save
 
-Scenario: case19: ทดสอบส่วนการลบ Country และกดยืนยันการลบ
+Scenario: case17: ทดสอบส่วนการลบ Country และกดยืนยันการลบ
     Given Open Website "http://203.154.82.165:6699/login"
     When Input user "dechbodin34@gmail.com" and password "dech0829299524TF"
     And Click Button login
@@ -190,7 +190,7 @@ Scenario: case19: ทดสอบส่วนการลบ Country และ�
     And Click delete
     Then Click confirm to delete
 
-Scenario: case20: ทดสอบส่วนการลบ Country และกดยกเลิกยืนยันการลบ
+Scenario: case18: ทดสอบส่วนการลบ Country และกดยกเลิกยืนยันการลบ
     Given Open Website "http://203.154.82.165:6699/login"
     When Input user "dechbodin34@gmail.com" and password "dech0829299524TF"
     And Click Button login
@@ -201,7 +201,7 @@ Scenario: case20: ทดสอบส่วนการลบ Country และ�
     And Click delete
     Then Click cancel to delete
 
-Scenario: case21: ทดสอบส่วนการปรับเปลี่ยนสถานะของ Country จาก Active เป็น Inactive และกดยืนยันการเปลี่ยนสถานะ
+Scenario: case19: ทดสอบส่วนการปรับเปลี่ยนสถานะของ Country จาก Active เป็น Inactive และกดยืนยันการเปลี่ยนสถานะ
     Given Open Website "http://203.154.82.165:6699/login"
     When Input user "dechbodin34@gmail.com" and password "dech0829299524TF"
     And Click Button login
@@ -212,7 +212,7 @@ Scenario: case21: ทดสอบส่วนการปรับเปลี�
     And Click change status from active to inactive
     Then Click confirm to change status
 
-Scenario: case22: ทดสอบส่วนการปรับเปลี่ยนสถานะของ Country จาก Inactive เป็น Active และกดยืนยันการเปลี่ยนสถานะ
+Scenario: case20: ทดสอบส่วนการปรับเปลี่ยนสถานะของ Country จาก Inactive เป็น Active และกดยืนยันการเปลี่ยนสถานะ
     Given Open Website "http://203.154.82.165:6699/login"
     When Input user "dechbodin34@gmail.com" and password "dech0829299524TF"
     And Click Button login
