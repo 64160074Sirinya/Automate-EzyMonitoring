@@ -151,16 +151,77 @@ Scenario: case16: ทดสอบส่วนการแก้ไข Country �
     And Click module master file
     And Click menu country
     And Select country
-    And Input country information every fild
+    And Edit country information every fild
     And Click cancel
     Then Click confirm to save
 
 Scenario: case17: ทดสอบส่วนการแก้ไข Country กรณีแก้ไข Country ISO Code ซ้ำกับที่มีข้อมูลอยู่ในระบบ
+    Given Open Website "http://203.154.82.165:6699/login"
+    When Input user "dechbodin34@gmail.com" and password "dech0829299524TF"
+    And Click Button login
+    And Click EzyMonitoring
+    And Click module master file
+    And Click menu country
+    And Select country
+    And Edit country information every fild
+    And Click save
+    Then Click confirm to save
+
 Scenario: case18: ทดสอบส่วนการยกเลิกการแก้ไข Country และยืนยันการยกเลิก
+    Given Open Website "http://203.154.82.165:6699/login"
+    When Input user "dechbodin34@gmail.com" and password "dech0829299524TF"
+    And Click Button login
+    And Click EzyMonitoring
+    And Click module master file
+    And Click menu country
+    And Select country
+    And Edit country information every fild
+    And Click cancel
+    Then Click confirm to save
+
 Scenario: case19: ทดสอบส่วนการลบ Country และกดยืนยันการลบ
+    Given Open Website "http://203.154.82.165:6699/login"
+    When Input user "dechbodin34@gmail.com" and password "dech0829299524TF"
+    And Click Button login
+    And Click EzyMonitoring
+    And Click module master file
+    And Click menu country
+    And Select country
+    And Click delete
+    Then Click confirm to delete
+
 Scenario: case20: ทดสอบส่วนการลบ Country และกดยกเลิกยืนยันการลบ
+    Given Open Website "http://203.154.82.165:6699/login"
+    When Input user "dechbodin34@gmail.com" and password "dech0829299524TF"
+    And Click Button login
+    And Click EzyMonitoring
+    And Click module master file
+    And Click menu country
+    And Select country
+    And Click delete
+    Then Click cancel to delete
+
 Scenario: case21: ทดสอบส่วนการปรับเปลี่ยนสถานะของ Country จาก Active เป็น Inactive และกดยืนยันการเปลี่ยนสถานะ
+    Given Open Website "http://203.154.82.165:6699/login"
+    When Input user "dechbodin34@gmail.com" and password "dech0829299524TF"
+    And Click Button login
+    And Click EzyMonitoring
+    And Click module master file
+    And Click menu country
+    And Select country status is active
+    And Click change status from active to inactive
+    Then Click confirm to change status
+
 Scenario: case22: ทดสอบส่วนการปรับเปลี่ยนสถานะของ Country จาก Inactive เป็น Active และกดยืนยันการเปลี่ยนสถานะ
+    Given Open Website "http://203.154.82.165:6699/login"
+    When Input user "dechbodin34@gmail.com" and password "dech0829299524TF"
+    And Click Button login
+    And Click EzyMonitoring
+    And Click module master file
+    And Click menu country
+    And Select country status is inactive
+    And Click change status from inactive to active
+    Then Click confirm to change status
 
 
 
