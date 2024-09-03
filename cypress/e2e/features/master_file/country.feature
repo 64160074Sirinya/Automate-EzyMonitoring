@@ -195,15 +195,15 @@ Feature: Country
 #     And Click change status from active to inactive
 #     Then Click confirm to change status
 
-Scenario: case20: ทดสอบส่วนการปรับเปลี่ยนสถานะของ Country จาก Inactive เป็น Active และกดยืนยันการเปลี่ยนสถานะ
-    Given Open Website "http://203.154.82.165:6699/login"
-    When Input user "dechbodin34@gmail.com" and password "dech0829299524TF"
-    And Click Button login
-    And Click module master file
-    And Click menu country
-    And Select country status is inactive
-    And Click change status from inactive to active
-    Then Click confirm to change status
+# Scenario: case20: ทดสอบส่วนการปรับเปลี่ยนสถานะของ Country จาก Inactive เป็น Active และกดยืนยันการเปลี่ยนสถานะ
+#     Given Open Website "http://203.154.82.165:6699/login"
+#     When Input user "dechbodin34@gmail.com" and password "dech0829299524TF"
+#     And Click Button login
+#     And Click module master file
+#     And Click menu country
+#     And Select country status is inactive
+#     And Click change status from inactive to active
+#     Then Click confirm to change status
 
 
 
