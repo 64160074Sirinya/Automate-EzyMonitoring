@@ -1,50 +1,48 @@
 Feature: Country
 
-Scenario: case1: ทดสอบส่วนการเข้าหน้าจอ Country
-    Given Open Website "http://203.154.82.165:6699/login"
-    When Input user "dechbodin34@gmail.com" and password "dech0829299524TF"
-    And Click Button login
-    And Click module master file
-    Then Click menu country
-
-# Scenario: case2: ทดสอบส่วนการค้นหาแบบ Globle Search กรณีมีข้อมูลในระบบ
+# Scenario: case1: ทดสอบส่วนการเข้าหน้าจอ Country
 #     Given Open Website "http://203.154.82.165:6699/login"
 #     When Input user "dechbodin34@gmail.com" and password "dech0829299524TF"
 #     And Click Button login
-#     And Click EzyMonitoring
+#     And Click module master file
+#     Then Click menu country
+
+#  Scenario: case2 ทดสอบส่วนการค้นหาแบบ Globle Search กรณีมีข้อมูลในระบบ
+#     Given Open Website "http://203.154.82.165:6699/login"
+#     When Input user "dechbodin34@gmail.com" and password "dech0829299524TF"
+#     And Click Button login
 #     And Click module master file
 #     And Click menu country
-#     And Click search box
-#     And Input data is have information
-#     Then Click search
+#     Then Click search country ISO code
+    # And Click search
+    # And Click search country name (en)
+    # And Click search
+    # And Click search country name (th)
+    # And Click search
+    # And Click search currency
+    # Then Click search
 
 # Scenario: case3: ทดสอบส่วนการค้นหาแบบ Globle Search กรณีไม่มีข้อมูลในระบบ
 #     Given Open Website "http://203.154.82.165:6699/login"
 #     When Input user "dechbodin34@gmail.com" and password "dech0829299524TF"
 #     And Click Button login
-#     And Click EzyMonitoring
 #     And Click module master file
 #     And Click menu country
-#     And Click search box
-#     And Input data is not have information
-#     Then Click search
+#     Then Click search box
 
 # Scenario: case4: ทดสอบส่วนการยกเลิกการค้นหา
 #     Given Open Website "http://203.154.82.165:6699/login"
 #     When Input user "dechbodin34@gmail.com" and password "dech0829299524TF"
 #     And Click Button login
-#     And Click EzyMonitoring
 #     And Click module master file
 #     And Click menu country
 #     And Click search box
-#     And Input data is not have information
 #     Then Click cancel search
 
 # Scenario: case5: ทดสอบส่วนการเข้าหน้าจอเพิ่ม Country 
 #     Given Open Website "http://203.154.82.165:6699/login"
 #     When Input user "dechbodin34@gmail.com" and password "dech0829299524TF"
 #     And Click Button login
-#     And Click EzyMonitoring
 #     And Click module master file
 #     And Click menu country
 #     Then Click add country
@@ -53,7 +51,6 @@ Scenario: case1: ทดสอบส่วนการเข้าหน้าจ
 #     Given Open Website "http://203.154.82.165:6699/login"
 #     When Input user "dechbodin34@gmail.com" and password "dech0829299524TF"
 #     And Click Button login
-#     And Click EzyMonitoring
 #     And Click module master file
 #     And Click menu country
 #     And Click add country
@@ -65,35 +62,32 @@ Scenario: case1: ทดสอบส่วนการเข้าหน้าจ
 #     Given Open Website "http://203.154.82.165:6699/login"
 #     When Input user "dechbodin34@gmail.com" and password "dech0829299524TF"
 #     And Click Button login
-#     And Click EzyMonitoring
 #     And Click module master file
 #     And Click menu country
 #     And Click add country
 #     And Input country ISO code only one fild
 #     And Click save
-#     Then Click confirm to save
+#     Then Alert warnning
 
 # Scenario: case8: ทดสอบส่วนการเพิ่ม Country กรณีกรอก Country Name (EN) และกดบันทึก
 #     Given Open Website "http://203.154.82.165:6699/login"
 #     When Input user "dechbodin34@gmail.com" and password "dech0829299524TF"
 #     And Click Button login
-#     And Click EzyMonitoring
 #     And Click module master file
 #     And Click menu country
 #     And Click add country
-#     And Input country name (en) only one fild
+#     And Input country name en only one fild
 #     And Click save
-#     Then Click confirm to save
+#     Then Alert warnning
 
 # Scenario: case9: ทดสอบส่วนการเพิ่ม Country กรณีกรอก Country Name (TH) และกดบันทึก
 #     Given Open Website "http://203.154.82.165:6699/login"
 #     When Input user "dechbodin34@gmail.com" and password "dech0829299524TF"
 #     And Click Button login
-#     And Click EzyMonitoring
 #     And Click module master file
 #     And Click menu country
 #     And Click add country
-#     And Input country name (en) only one fild
+#     And Input country name th only one fild
 #     And Click save
 #     Then Click confirm to save
 
@@ -101,18 +95,17 @@ Scenario: case1: ทดสอบส่วนการเข้าหน้าจ
 #     Given Open Website "http://203.154.82.165:6699/login"
 #     When Input user "dechbodin34@gmail.com" and password "dech0829299524TF"
 #     And Click Button login
-#     And Click EzyMonitoring
 #     And Click module master file
 #     And Click menu country
 #     And Click add country
 #     And Input currency only one fild
 #     And Click save
 #     Then Click confirm to save
+
 # Scenario: case11: ทดสอบส่วนการเพิ่ม Country กรณีไม่กรอกฟิลด์ใดเลย และกดบันทึก
 #     Given Open Website "http://203.154.82.165:6699/login"
 #     When Input user "dechbodin34@gmail.com" and password "dech0829299524TF"
 #     And Click Button login
-#     And Click EzyMonitoring
 #     And Click module master file
 #     And Click menu country
 #     And Click add country
@@ -123,7 +116,6 @@ Scenario: case1: ทดสอบส่วนการเข้าหน้าจ
 #     Given Open Website "http://203.154.82.165:6699/login"
 #     When Input user "dechbodin34@gmail.com" and password "dech0829299524TF"
 #     And Click Button login
-#     And Click EzyMonitoring
 #     And Click module master file
 #     And Click menu country
 #     And Click add country
@@ -135,31 +127,17 @@ Scenario: case1: ทดสอบส่วนการเข้าหน้าจ
 #     Given Open Website "http://203.154.82.165:6699/login"
 #     When Input user "dechbodin34@gmail.com" and password "dech0829299524TF"
 #     And Click Button login
-#     And Click EzyMonitoring
 #     And Click module master file
 #     And Click menu country
 #     And Click add country
 #     And Input country information every fild
 #     And Click cancel
-#     Then Click confirm to save
+#     Then Click confirm to save cancel
 
 # Scenario: case14: ทดสอบส่วนการแก้ไข Country กรณีแก้ไขรายละเอียดทุกฟิลด์ และกดบันทึก
 #     Given Open Website "http://203.154.82.165:6699/login"
 #     When Input user "dechbodin34@gmail.com" and password "dech0829299524TF"
 #     And Click Button login
-#     And Click EzyMonitoring
-#     And Click module master file
-#     And Click menu country
-#     And Select country
-#     And Edit country information every fild
-#     And Click cancel
-#     Then Click confirm to save
-
-# Scenario: case15: ทดสอบส่วนการแก้ไข Country กรณีแก้ไข Country ISO Code ซ้ำกับที่มีข้อมูลอยู่ในระบบ
-#     Given Open Website "http://203.154.82.165:6699/login"
-#     When Input user "dechbodin34@gmail.com" and password "dech0829299524TF"
-#     And Click Button login
-#     And Click EzyMonitoring
 #     And Click module master file
 #     And Click menu country
 #     And Select country
@@ -167,26 +145,34 @@ Scenario: case1: ทดสอบส่วนการเข้าหน้าจ
 #     And Click save
 #     Then Click confirm to save
 
+# Scenario: case15: ทดสอบส่วนการแก้ไข Country กรณีแก้ไข Country ISO Code ซ้ำกับที่มีข้อมูลอยู่ในระบบ
+#     Given Open Website "http://203.154.82.165:6699/login"
+#     When Input user "dechbodin34@gmail.com" and password "dech0829299524TF"
+#     And Click Button login
+#     And Click module master file
+#     And Click menu country
+#     And Select country
+#     And Edit country ISO code it repeat information in system
+#     And Click save
+#     Then Alert warnning
+
 # Scenario: case16: ทดสอบส่วนการยกเลิกการแก้ไข Country และยืนยันการยกเลิก
 #     Given Open Website "http://203.154.82.165:6699/login"
 #     When Input user "dechbodin34@gmail.com" and password "dech0829299524TF"
 #     And Click Button login
-#     And Click EzyMonitoring
 #     And Click module master file
 #     And Click menu country
 #     And Select country
 #     And Edit country information every fild
 #     And Click cancel
-#     Then Click confirm to save
+#     Then Click confirm to save cancel
 
 # Scenario: case17: ทดสอบส่วนการลบ Country และกดยืนยันการลบ
 #     Given Open Website "http://203.154.82.165:6699/login"
 #     When Input user "dechbodin34@gmail.com" and password "dech0829299524TF"
 #     And Click Button login
-#     And Click EzyMonitoring
 #     And Click module master file
 #     And Click menu country
-#     And Select country
 #     And Click delete
 #     Then Click confirm to delete
 
@@ -194,10 +180,8 @@ Scenario: case1: ทดสอบส่วนการเข้าหน้าจ
 #     Given Open Website "http://203.154.82.165:6699/login"
 #     When Input user "dechbodin34@gmail.com" and password "dech0829299524TF"
 #     And Click Button login
-#     And Click EzyMonitoring
 #     And Click module master file
 #     And Click menu country
-#     And Select country
 #     And Click delete
 #     Then Click cancel to delete
 
@@ -205,18 +189,16 @@ Scenario: case1: ทดสอบส่วนการเข้าหน้าจ
 #     Given Open Website "http://203.154.82.165:6699/login"
 #     When Input user "dechbodin34@gmail.com" and password "dech0829299524TF"
 #     And Click Button login
-#     And Click EzyMonitoring
 #     And Click module master file
 #     And Click menu country
 #     And Select country status is active
 #     And Click change status from active to inactive
 #     Then Click confirm to change status
 
-# Scenario: case20: ทดสอบส่วนการปรับเปลี่ยนสถานะของ Country จาก Inactive เป็น Active และกดยืนยันการเปลี่ยนสถานะ
+Scenario: case20: ทดสอบส่วนการปรับเปลี่ยนสถานะของ Country จาก Inactive เป็น Active และกดยืนยันการเปลี่ยนสถานะ
     Given Open Website "http://203.154.82.165:6699/login"
     When Input user "dechbodin34@gmail.com" and password "dech0829299524TF"
     And Click Button login
-    And Click EzyMonitoring
     And Click module master file
     And Click menu country
     And Select country status is inactive

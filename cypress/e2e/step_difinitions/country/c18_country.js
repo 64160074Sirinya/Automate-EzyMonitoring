@@ -32,30 +32,14 @@ And('Click menu country', () => {
     cy.wait(1000);
 })
 
-And('Click add country', () => {
-    cy.get('[style="--ant-col-lg-flex: none;"] > .ant-row > .ant-col > .ant-btn').click();
+And('Click delete', () => {
+    //Select country to delete
+    cy.get(':nth-child(1) > :nth-child(7) > .row > .col-12 > .managementIconSpanStyle').click();
     cy.wait(1000);
 })
 
-And('Input country name th only one fild', () => {
-    //Input country name (th)
-    cy.get(':nth-child(4) > .ant-col-5 > .ant-input').type('เซน');
+Then('Click cancel to delete', () => {
     cy.wait(1000);
+    cy.get('.swal2-cancel').click();
 })
 
-And('Click save', () => {
-    cy.get(':nth-child(2) > .ant-btn').click();  
-    cy.wait(1000);  
-})
-
-Then('Alert warnning', () => {
-    cy.wait(1000);
-    cy.get('.swal2-popup').then($popup => {
-        if ($popup.hasClass('active')) {
-            cy.get('.swal2-confirm').click();
-        } else {
-            cy.get('.swal2-confirm').click();
-        }
-    })
-    
-})
