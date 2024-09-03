@@ -13,8 +13,7 @@ Feature: Document type
 #     And Click Button login
 #     And Click module master file
 #     And Click menu document type
-#     And Input data in have information in system
-#     Then Click search
+#     Then Input data in have information in system
 
 # Scenario: case3: ทดสอบส่วนการค้นหาแบบ Globle Search กรณีไม่มีข้อมูลในระบบ
 #     Given Open Website "http://203.154.82.165:6699/login"
@@ -22,8 +21,7 @@ Feature: Document type
 #     And Click Button login
 #     And Click module master file
 #     And Click menu document type
-#     And Input data in haven't information in system
-#     Then Click search
+#     Then Input data in not have information in system
 
 # Scenario: case4: ทดสอบส่วนการยกเลิกการค้นหา
 #     Given Open Website "http://203.154.82.165:6699/login"
@@ -31,8 +29,7 @@ Feature: Document type
 #     And Click Button login
 #     And Click module master file
 #     And Click menu document type
-#     And Input data in have information in system
-#     Then Click cancel
+#     Then Input data in have information in system 1
 
 # Scenario: case5: ทดสอบส่วนการเข้าหน้าจอเพิ่ม Document Type
 #     Given Open Website "http://203.154.82.165:6699/login"
@@ -62,7 +59,7 @@ Feature: Document type
 #     And Click add document type
 #     And Input document type code only fild
 #     And Click save
-#     Then Click confirm to save
+#     Then Alert warnning
 
 # Scenario: case8: ทดสอบส่วนการเพิ่ม Document Type กรณีเลือก Document Type และกดบันทึก
 #     Given Open Website "http://203.154.82.165:6699/login"
@@ -73,7 +70,7 @@ Feature: Document type
 #     And Click add document type
 #     And Input document type only fild
 #     And Click save
-#     Then Click confirm to save
+#     Then Alert warnning
 
 # Scenario: case9: ทดสอบส่วนการเพิ่ม Document Type กรณีกรอก Document Type Name และกดบันทึก
 #     Given Open Website "http://203.154.82.165:6699/login"
@@ -81,10 +78,10 @@ Feature: Document type
 #     And Click Button login
 #     And Click module master file
 #     And Click menu document type
-#     And Click add document type name
-#     And Input document type only fild
+#     And Click add document type
+#     And Input document type name only fild
 #     And Click save
-#     Then Click confirm to save
+#     Then Alert warnning
 
 # Scenario: case10: ทดสอบส่วนการเพิ่ม Country กรณีไม่กรอกฟิลด์ใดเลย และกดบันทึก
 #     Given Open Website "http://203.154.82.165:6699/login"
@@ -114,9 +111,9 @@ Feature: Document type
 #     And Click module master file
 #     And Click menu document type
 #     And Click add document type
-#     And Input document type only fild
+#     And Input document information
 #     And Click cancel
-#     Then Click confirm to cencel
+#     Then Alert warnning
 
 # Scenario: case13: ทดสอบส่วนการแก้ไข Document Type กรณีแก้ไขรายละเอียดทุกฟิลด์ และกดบันทึก
 #     Given Open Website "http://203.154.82.165:6699/login"
@@ -124,7 +121,7 @@ Feature: Document type
 #     And Click Button login
 #     And Click module master file
 #     And Click menu document type
-#     And Click add document type
+#     And Select document type to edit
 #     And Edit information document type every fild
 #     And Click save
 #     Then Click confirm to save
@@ -135,21 +132,21 @@ Feature: Document type
 #     And Click Button login
 #     And Click module master file
 #     And Click menu document type
-#     And Click add document type
+#     And Select document type to edit
 #     And Edit document type code is have already use
 #     And Click save
 #     Then Click confirm to save
 
-# Scenario: case15: ทดสอบส่วนการยกเลิกการแก้ไข Document Type และยืนยันการยกเลิก
-#     Given Open Website "http://203.154.82.165:6699/login"
-#     When Input user "dechbodin34@gmail.com" and password "dech0829299524TF"
-#     And Click Button login
-#     And Click module master file
-#     And Click menu document type
-#     And Click add document type
-#     And Edit information document type
-#     And Click cancel
-#     Then Click confirm to cancel
+Scenario: case15: ทดสอบส่วนการยกเลิกการแก้ไข Document Type และยืนยันการยกเลิก
+    Given Open Website "http://203.154.82.165:6699/login"
+    When Input user "dechbodin34@gmail.com" and password "dech0829299524TF"
+    And Click Button login
+    And Click module master file
+    And Click menu document type
+    And Select document type to edit
+    And Edit information document type
+    And Click cancel
+    Then Click confirm to cancel
 
 # Scenario: case16: ทดสอบส่วนการลบ Document Type และกดยืนยันการลบ
 #     Given Open Website "http://203.154.82.165:6699/login"
@@ -181,12 +178,12 @@ Feature: Document type
 #     Then Click confirm to change status
 
 # Scenario: case19: ทดสอบส่วนการปรับเปลี่ยนสถานะของ  Document Type จาก Inactive เป็น Active และกดยืนยันการเปลี่ยนสถาน
-    Given Open Website "http://203.154.82.165:6699/login"
-    When Input user "dechbodin34@gmail.com" and password "dech0829299524TF"
-    And Click Button login
-    And Click EzyMonitoring
-    And Click module master file
-    And Click menu document type
-    And Select document type status is inactive
-    And Click change status from inactive to active
-    Then Click confirm to change status
+    # Given Open Website "http://203.154.82.165:6699/login"
+    # When Input user "dechbodin34@gmail.com" and password "dech0829299524TF"
+    # And Click Button login
+    # And Click EzyMonitoring
+    # And Click module master file
+    # And Click menu document type
+    # And Select document type status is inactive
+    # And Click change status from inactive to active
+    # Then Click confirm to change status
