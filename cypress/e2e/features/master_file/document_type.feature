@@ -137,16 +137,16 @@ Feature: Document type
 #     And Click save
 #     Then Click confirm to save
 
-Scenario: case15: ทดสอบส่วนการยกเลิกการแก้ไข Document Type และยืนยันการยกเลิก
-    Given Open Website "http://203.154.82.165:6699/login"
-    When Input user "dechbodin34@gmail.com" and password "dech0829299524TF"
-    And Click Button login
-    And Click module master file
-    And Click menu document type
-    And Select document type to edit
-    And Edit information document type
-    And Click cancel
-    Then Click confirm to cancel
+# Scenario: case15: ทดสอบส่วนการยกเลิกการแก้ไข Document Type และยืนยันการยกเลิก
+#     Given Open Website "http://203.154.82.165:6699/login"
+#     When Input user "dechbodin34@gmail.com" and password "dech0829299524TF"
+#     And Click Button login
+#     And Click module master file
+#     And Click menu document type
+#     And Select document type to edit
+#     And Edit information document type
+#     And Click cancel
+#     Then Click confirm to cancel
 
 # Scenario: case16: ทดสอบส่วนการลบ Document Type และกดยืนยันการลบ
 #     Given Open Website "http://203.154.82.165:6699/login"
@@ -170,7 +170,6 @@ Scenario: case15: ทดสอบส่วนการยกเลิกกา�
 #     Given Open Website "http://203.154.82.165:6699/login"
 #     When Input user "dechbodin34@gmail.com" and password "dech0829299524TF"
 #     And Click Button login
-#     And Click EzyMonitoring
 #     And Click module master file
 #     And Click menu document type
 #     And Select document type status is active
@@ -178,12 +177,11 @@ Scenario: case15: ทดสอบส่วนการยกเลิกกา�
 #     Then Click confirm to change status
 
 # Scenario: case19: ทดสอบส่วนการปรับเปลี่ยนสถานะของ  Document Type จาก Inactive เป็น Active และกดยืนยันการเปลี่ยนสถาน
-    # Given Open Website "http://203.154.82.165:6699/login"
-    # When Input user "dechbodin34@gmail.com" and password "dech0829299524TF"
-    # And Click Button login
-    # And Click EzyMonitoring
-    # And Click module master file
-    # And Click menu document type
-    # And Select document type status is inactive
-    # And Click change status from inactive to active
-    # Then Click confirm to change status
+#     Given Open Website "http://203.154.82.165:6699/login"
+#     When Input user "dechbodin34@gmail.com" and password "dech0829299524TF"
+#     And Click Button login
+#     And Click module master file
+#     And Click menu document type
+#     And Select document type status is inactive
+#     And Click change status from inactive to active
+#     Then Click confirm to change status

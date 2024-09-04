@@ -39,22 +39,25 @@ And('Select document type to edit', () => {
     cy.wait(1000);
 })
 
-And('Edit document type code is have already use', () => {
+And('Edit information document type', () => {
+    //Input document type code
+    cy.get('[style="padding: 25px 15px 10px;"] > .ant-col-5 > .ant-input').clear().type('16');
+    cy.wait(1000);
     // //Input document type
     cy.get('.ant-select-selector').click();
     cy.get('.ant-select-item-option-active').click();
     cy.wait(1000);
-    // //Input document type name
-    // cy.get(':nth-child(4) > .ant-col-5 > .ant-input').clear().type('EDIT')
-    // cy.wait(1000);
-})
-
-And('Click save', () => {
-    cy.get(':nth-child(2) > .ant-btn').click();
+    //Input document type name
+    cy.get(':nth-child(4) > .ant-col-5 > .ant-input').clear().type('EDIT')
     cy.wait(1000);
 })
 
-Then('Click confirm to save', () => {
+And('Click cancel', () => {
+    cy.get(':nth-child(1) > .ant-btn > span').click();
+    cy.wait(1000);
+})
+
+Then('Click confirm to cancel', () => {
     cy.wait(1000);
     cy.get('.swal2-popup').then($popup => {
         if ($popup.hasClass('active')) {
