@@ -30,6 +30,6 @@ Then('Click menu document type', () => {
     // Click dropdown to select menu country
     cy.get('#menu_clickid-card-menu-toggle-home-icon0').click();
     cy.wait(1000);
-    cy.get('#menu_clickcard-menu-sub-home-item-text1').click();
+    cy.get('#menu_clickcard-menu-sub-home-item-text2').click();
     cy.wait(1000);
 })
