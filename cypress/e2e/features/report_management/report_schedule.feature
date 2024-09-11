@@ -22,7 +22,7 @@ Scenario: case1: ทดสอบส่วนการเพิ่ม Report Shed
 Scenario: case1: ทดสอบส่วนการเพิ่ม Report Sheduler กรณีกรอกในกล่องข้อความ (Text Box) Mail โดยไม่กรอกข้อมูลประเภท Mail  และยืนยันการสร้าง Report Sheduler
 Scenario: case1: ทดสอบส่วนการเพิ่ม Report Sheduler กรณีเพิ่ม Report  มากกว่า 1 Report
 Scenario: case1: ทดสอบส่วนการเพิ่ม Report Sheduler กรณีเลือก Report แบบ Monthly กรอกจำนวนวันย้อนหลังการออก Report และยืนยันการสร้าง Report Sheduler
-Scenario: case1: Scenario: case1: ทดสอบส่วนการเพิ่ม Report Sheduler กรณีเลือก Report แบบ Monthly ไม่กรอกจำนวนวันย้อนหลังการออก Report และยืนยันการสร้าง Report Sheduler
+Scenario: case1: ทดสอบส่วนการเพิ่ม Report Sheduler กรณีเลือก Report แบบ Monthly ไม่กรอกจำนวนวันย้อนหลังการออก Report และยืนยันการสร้าง Report Sheduler
 Scenario: case1: ทดสอบส่วนการเพิ่ม Report Sheduler กรณีลบ Report
 Scenario: case1: ทดสอบส่วนการปรับเปลี่ยน Status กรณีปรับ Status จาก Active เป็น Non Active และยืนยันการปรับเปปลี่ยนสถานะ
 Scenario: case1: ทดสอบส่วนการปรับเปลี่ยน Status กรณีปรับ Status จาก Non Active เป็น Active และยืนยันการปรับเปปลี่ยนสถานะ

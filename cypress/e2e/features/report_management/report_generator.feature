@@ -1,7 +1,6 @@
 Feature: Report Generator
 
 Scenario: case1: ทดสอบการเข้าหน้าจอ Report Generator
-Scenario: case1: ทดสอบส่วนการ Sorting ข้อมูลของ Report Generator
 Scenario: case1: ทดสอบส่วนการค้นหาแบบ Globle Search Report กรณีมีข้อมูลอยู่ในระบบ 
 Scenario: case1: ทดสอบส่วนการค้นหาแบบ Globle Search Report กรณีไม่มีข้อมูลอยู่ในระบบ 
 Scenario: case1: ทดสอบส่วนการค้นหา Report กรณียกเลิกคำค้นหา
@@ -28,7 +27,7 @@ Scenario: case1: ทดสอบส่วนการเข้าหน้าแ
 Scenario: case1: ทดสอบส่วนการแก้ไข Report กรณีแก้ไข Report Name และกดยืนยันการแก้ไข Report และยืนยันการแก้ไข
 Scenario: case1: ทดสอบส่วนการแก้้ไข Report กรณีแก้ไข Type Data เป็น Import และยืนยันการแก้ไข
 Scenario: case1: ทดสอบส่วนการแก้ไข Report กรณีแก้ไข Type Data เป็น Export และยืนยันการแก้ไข
-Scenario: case1: Scenario: case1: ทดสอบส่วนการแก้ไข Report กรณีัแก้ไข File Type เป็น CSV และยืนยันการแก้ไข
+Scenario: case1: ทดสอบส่วนการแก้ไข Report กรณีัแก้ไข File Type เป็น CSV และยืนยันการแก้ไข
 Scenario: case1: ทดสอบส่วนการแก้ไข Report กรณีแก้้ไข Delimeter CSV file เป็น Pipe และยืนยันการแก้ไข
 Scenario: case1: ทดสอบส่วนการแก้ไข Report กรณีแก้ไข Delimeter CSV file เป็น Comma และยืนยันการแก้ไข
 Scenario: case1: ทดสอบส่วนการแก้ไข Report กรณีแก้ไข File Type เป็น XLS และยืนยันการแก้ไข

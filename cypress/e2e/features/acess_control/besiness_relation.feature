@@ -4,15 +4,15 @@ Feature: Business Relation Setup
 #     Given Open Website "http://203.154.82.165:6699/login"
 #     When Input user "dechbodin34@gmail.com" and password "dech0829299524TF"
 #     And Click Button login
-#     And Click module master file
+#     And Click module access control
 #     Then Click menu business relation setup
 
 # Scenario: case1: ทดสอบส่วนการค้นหาชื่อบริษัทที่มีข้อมูลอยู่ในระบบ
 #     Given Open Website "http://203.154.82.165:6699/login"
 #     When Input user "dechbodin34@gmail.com" and password "dech0829299524TF"
 #     And Click Button login
-#     And Click module master file
-#     And Click menu country
+#     And Click module access control
+#     And Click menu business relation setup
 #     And Input search company it have already use
 #     Then Search
 
@@ -20,8 +20,8 @@ Feature: Business Relation Setup
 #     Given Open Website "http://203.154.82.165:6699/login"
 #     When Input user "dechbodin34@gmail.com" and password "dech0829299524TF"
 #     And Click Button login
-#     And Click module master file
-#     And Click menu country
+#     And Click module access control
+#     And Click menu business relation setup
 #     And Input search company it have not already use
 #     Then Search
 
@@ -29,8 +29,8 @@ Feature: Business Relation Setup
 #     Given Open Website "http://203.154.82.165:6699/login"
 #     When Input user "dechbodin34@gmail.com" and password "dech0829299524TF"
 #     And Click Button login
-#     And Click module master file
-#     And Click menu country
+#     And Click module access control
+#     And Click menu business relation setup
 #     And Input search company it have already use
 #     Then Cancel search
 
@@ -38,16 +38,16 @@ Feature: Business Relation Setup
 #     Given Open Website "http://203.154.82.165:6699/login"
 #     When Input user "dechbodin34@gmail.com" and password "dech0829299524TF"
 #     And Click Button login
-#     And Click module master file
-#     And Click menu country
+#     And Click module access control
+#     And Click menu business relation setup
 #     Then Select company to management
 
 # Scenario: case1: ทดสอบการเพิ่ม Relation ของบริษัทแม่กรณีกรอกครบทุกฟิลด์ และกดบันทึก
 #     Given Open Website "http://203.154.82.165:6699/login"
 #     When Input user "dechbodin34@gmail.com" and password "dech0829299524TF"
 #     And Click Button login
-#     And Click module master file
-#     And Click menu country
+#     And Click module access control
+#     And Click menu business relation setup
 #     And Select company to management
 #     And click add Relation
 #     And Input relation information
@@ -58,8 +58,8 @@ Feature: Business Relation Setup
 #     Given Open Website "http://203.154.82.165:6699/login"
 #     When Input user "dechbodin34@gmail.com" and password "dech0829299524TF"
 #     And Click Button login
-#     And Click module master file
-#     And Click menu country
+#     And Click module access control
+#     And Click menu business relation setup
 #     And Select company to management
 #     And click add Relation
 #     And Input exporter/importer tax id only filed
@@ -70,8 +70,8 @@ Feature: Business Relation Setup
 #     Given Open Website "http://203.154.82.165:6699/login"
 #     When Input user "dechbodin34@gmail.com" and password "dech0829299524TF"
 #     And Click Button login
-#     And Click module master file
-#     And Click menu country
+#     And Click module access control
+#     And Click menu business relation setup
 #     And Select company to management
 #     And click add Relation
 #     And Input exporter/importer tax branch only filed
@@ -82,8 +82,8 @@ Feature: Business Relation Setup
 #     Given Open Website "http://203.154.82.165:6699/login"
 #     When Input user "dechbodin34@gmail.com" and password "dech0829299524TF"
 #     And Click Button login
-#     And Click module master file
-#     And Click menu country
+#     And Click module access control
+#     And Click menu business relation setup
 #     And Select company to management
 #     And click add Relation
 #     And Input agent tax id only filed
@@ -94,8 +94,8 @@ Feature: Business Relation Setup
 #     Given Open Website "http://203.154.82.165:6699/login"
 #     When Input user "dechbodin34@gmail.com" and password "dech0829299524TF"
 #     And Click Button login
-#     And Click module master file
-#     And Click menu country
+#     And Click module access control
+#     And Click menu business relation setup
 #     And Select company to management
 #     And click add Relation
 #     And Input agent tax branch only filed
@@ -106,8 +106,8 @@ Feature: Business Relation Setup
 #     Given Open Website "http://203.154.82.165:6699/login"
 #     When Input user "dechbodin34@gmail.com" and password "dech0829299524TF"
 #     And Click Button login
-#     And Click module master file
-#     And Click menu country
+#     And Click module access control
+#     And Click menu business relation setup
 #     And Select company to management
 #     And click add Relation
 #     And Input logistic provider only filed
@@ -118,8 +118,8 @@ Feature: Business Relation Setup
 #     Given Open Website "http://203.154.82.165:6699/login"
 #     When Input user "dechbodin34@gmail.com" and password "dech0829299524TF"
 #     And Click Button login
-#     And Click module master file
-#     And Click menu country
+#     And Click module access control
+#     And Click menu business relation setup
 #     And Select company to management
 #     And click add Relation
 #     And Input mailbox only filed
@@ -130,8 +130,8 @@ Feature: Business Relation Setup
 #     Given Open Website "http://203.154.82.165:6699/login"
 #     When Input user "dechbodin34@gmail.com" and password "dech0829299524TF"
 #     And Click Button login
-#     And Click module master file
-#     And Click menu country
+#     And Click module access control
+#     And Click menu business relation setup
 #     And Select company to management
 #     And click add Relation
 #     And Input relation information it have already use
@@ -142,8 +142,8 @@ Feature: Business Relation Setup
 #     Given Open Website "http://203.154.82.165:6699/login"
 #     When Input user "dechbodin34@gmail.com" and password "dech0829299524TF"
 #     And Click Button login
-#     And Click module master file
-#     And Click menu country
+#     And Click module access control
+#     And Click menu business relation setup
 #     And Select company to management
 #     And click add Relation
 #     And save
@@ -153,8 +153,8 @@ Feature: Business Relation Setup
 #     Given Open Website "http://203.154.82.165:6699/login"
 #     When Input user "dechbodin34@gmail.com" and password "dech0829299524TF"
 #     And Click Button login
-#     And Click module master file
-#     And Click menu country
+#     And Click module access control
+#     And Click menu business relation setup
 #     And Select company to management
 #     And Select relation to delete
 #     And save
@@ -164,16 +164,16 @@ Feature: Business Relation Setup
 #     Given Open Website "http://203.154.82.165:6699/login"
 #     When Input user "dechbodin34@gmail.com" and password "dech0829299524TF"
 #     And Click Button login
-#     And Click module master file
-#     And Click menu country
+#     And Click module access control
+#     And Click menu business relation setup
 #     And Click icon more info of company
 
 # Scenario: case1: ทดสอบการเข้าหน้าจอจัดการ Relation ของบริษัทหรือสาขาภายในเครือ
 #     Given Open Website "http://203.154.82.165:6699/login"
 #     When Input user "dechbodin34@gmail.com" and password "dech0829299524TF"
 #     And Click Button login
-#     And Click module master file
-#     And Click menu country
+#     And Click module access control
+#     And Click menu business relation setup
 #     And Select company and branch
 #     And click add Relation
 #     And Input agent tax branch only filed
@@ -184,8 +184,8 @@ Feature: Business Relation Setup
 #     Given Open Website "http://203.154.82.165:6699/login"
 #     When Input user "dechbodin34@gmail.com" and password "dech0829299524TF"
 #     And Click Button login
-#     And Click module master file
-#     And Click menu country
+#     And Click module access control
+#     And Click menu business relation setup
 #     And Select company and branch
 #     And click add Relation
 #     And Input relation information every field
@@ -196,8 +196,8 @@ Feature: Business Relation Setup
 #     Given Open Website "http://203.154.82.165:6699/login"
 #     When Input user "dechbodin34@gmail.com" and password "dech0829299524TF"
 #     And Click Button login
-#     And Click module master file
-#     And Click menu country
+#     And Click module access control
+#     And Click menu business relation setup
 #     And Select company and branch
 #     And click add Relation
 #     And Input Exporter/Importer Tax only field
@@ -208,8 +208,8 @@ Feature: Business Relation Setup
 #     Given Open Website "http://203.154.82.165:6699/login"
 #     When Input user "dechbodin34@gmail.com" and password "dech0829299524TF"
 #     And Click Button login
-#     And Click module master file
-#     And Click menu country
+#     And Click module access control
+#     And Click menu business relation setup
 #     And Select company and branch
 #     And click add Relation
 #     And Input Exporter/Importer Tax Branch only field
@@ -220,8 +220,8 @@ Feature: Business Relation Setup
 #     Given Open Website "http://203.154.82.165:6699/login"
 #     When Input user "dechbodin34@gmail.com" and password "dech0829299524TF"
 #     And Click Button login
-#     And Click module master file
-#     And Click menu country
+#     And Click module access control
+#     And Click menu business relation setup
 #     And Select company and branch
 #     And click add Relation
 #     And Input Agent Tax ID only field
@@ -232,8 +232,8 @@ Feature: Business Relation Setup
 #     Given Open Website "http://203.154.82.165:6699/login"
 #     When Input user "dechbodin34@gmail.com" and password "dech0829299524TF"
 #     And Click Button login
-#     And Click module master file
-#     And Click menu country
+#     And Click module access control
+#     And Click menu business relation setup
 #     And Select company and branch
 #     And click add Relation
 #     And Input Agent Tax Branch only field
@@ -244,8 +244,8 @@ Feature: Business Relation Setup
 #     Given Open Website "http://203.154.82.165:6699/login"
 #     When Input user "dechbodin34@gmail.com" and password "dech0829299524TF"
 #     And Click Button login
-#     And Click module master file
-#     And Click menu country
+#     And Click module access control
+#     And Click menu business relation setup
 #     And Select company and branch
 #     And click add Relation
 #     And Input Logistic Provider only field
@@ -256,8 +256,8 @@ Feature: Business Relation Setup
 #     Given Open Website "http://203.154.82.165:6699/login"
 #     When Input user "dechbodin34@gmail.com" and password "dech0829299524TF"
 #     And Click Button login
-#     And Click module master file
-#     And Click menu country
+#     And Click module access control
+#     And Click menu business relation setup
 #     And Select company and branch
 #     And click add Relation
 #     And Input Mailbox only field
@@ -268,8 +268,8 @@ Feature: Business Relation Setup
 #     Given Open Website "http://203.154.82.165:6699/login"
 #     When Input user "dechbodin34@gmail.com" and password "dech0829299524TF"
 #     And Click Button login
-#     And Click module master file
-#     And Click menu country
+#     And Click module access control
+#     And Click menu business relation setup
 #     And Select company and branch
 #     And click add Relation
 #     And Input relation information it have already use
@@ -280,8 +280,8 @@ Feature: Business Relation Setup
 #     Given Open Website "http://203.154.82.165:6699/login"
 #     When Input user "dechbodin34@gmail.com" and password "dech0829299524TF"
 #     And Click Button login
-#     And Click module master file
-#     And Click menu country
+#     And Click module access control
+#     And Click menu business relation setup
 #     And Select company and branch
 #     And click add Relation
 #     And save
@@ -291,19 +291,120 @@ Feature: Business Relation Setup
 #     Given Open Website "http://203.154.82.165:6699/login"
 #     When Input user "dechbodin34@gmail.com" and password "dech0829299524TF"
 #     And Click Button login
-#     And Click module master file
-#     And Click menu country
+#     And Click module access control
+#     And Click menu business relation setup
 #     And Select company and branch
 #     And Select relation to delete
 #     And save
 #     Then Confirm to save
+
 # Scenario: case1: ทดสอบยกเลิกการเพิ่ม Relation ของบริษัทหรือสาขาภายในเครือ
+#     Given Open Website "http://203.154.82.165:6699/login"
+#     When Input user "dechbodin34@gmail.com" and password "dech0829299524TF"
+#     And Click Button login
+#     And Click module access control
+#     And Click menu business relation setup
+#     And Select company and branch
+#     And click add Relation
+#     And Input relation information
+#     And cancel
+#     Then Confirm to cancel
+
 # Scenario: case1: ทดสอบการเพิ่ม Manager ของบริษัทหรือสาขาภายในเครือ กรณีกรอกครบทุกฟิลด์ และกดบันทึก
+#     Given Open Website "http://203.154.82.165:6699/login"
+#     When Input user "dechbodin34@gmail.com" and password "dech0829299524TF"
+#     And Click Button login
+#     And Click module access control
+#     And Click menu business relation setup
+#     And Select company and branch
+#     And click add manager
+#     And Input manager information
+#     And save
+#     Then Confirm to save
+
 # Scenario: case1: ทดสอบการเพิ่ม Manager ของบริษัทหรือสาขาภายในเครือ กรณีกรอก Manager ID และกดบันทึก
+#     Given Open Website "http://203.154.82.165:6699/login"
+#     When Input user "dechbodin34@gmail.com" and password "dech0829299524TF"
+#     And Click Button login
+#     And Click module access control
+#     And Click menu business relation setup
+#     And Select company and branch
+#     And click add manager
+#     And Input manager id information only field
+#     And save
+#     Then Confirm to save
+
 # Scenario: case1: ทดสอบการเพิ่ม Manager ของบริษัทหรือสาขาภายในเครือ กรณีกรอก Manager Name และกดบันทึก
+#     Given Open Website "http://203.154.82.165:6699/login"
+#     When Input user "dechbodin34@gmail.com" and password "dech0829299524TF"
+#     And Click Button login
+#     And Click module access control
+#     And Click menu business relation setup
+#     And Select company and branch
+#     And click add manager
+#     And Input manager id information only field
+#     And save
+#     Then Confirm to save
+
 # Scenario: case1: ทดสอบการลบ Manager ของบริษัทหรือสาขาภายในเครือ
+#     Given Open Website "http://203.154.82.165:6699/login"
+#     When Input user "dechbodin34@gmail.com" and password "dech0829299524TF"
+#     And Click Button login
+#     And Click module access control
+#     And Click menu business relation setup
+#     And Select company and branch
+#     And select manager to delete
+#     And save
+#     Then Confirm to save
+
 # Scenario: case1: ทดสอบการเพิ่ม Manager ของบริษัทหรือสาขาภายในเครือ กรณีที่มีข้อมูลอยู่ในระบบ และกดบันทึก
+#     Given Open Website "http://203.154.82.165:6699/login"
+#     When Input user "dechbodin34@gmail.com" and password "dech0829299524TF"
+#     And Click Button login
+#     And Click module access control
+#     And Click menu business relation setup
+#     And Select company and branch
+#     And click add manager
+#     And Input manager information it have already use
+#     And save
+#     Then Confirm to save           fdwbs
+
 # Scenario: case1: ทดสอบการเพิ่ม Manager ของบริษัทหรือสาขาภายในเครือ กรณีไม่กรอกข้อมูลใดๆ และกดบันทึก
+#     Given Open Website "http://203.154.82.165:6699/login"
+#     When Input user "dechbodin34@gmail.com" and password "dech0829299524TF"
+#     And Click Button login
+#     And Click module access control
+#     And Click menu business relation setup
+#     And Select company and branch
+#     And click add manager
+#     And save
+#     Then Confirm to save
+
 # Scenario: case1: ทดสอบส่วนการกรอกข้อมูลของบริษัทหรือสาขาภายในเครือ ของฟิลด์ Branch Code และกดบันทึก
+#     Given Open Website "http://203.154.82.165:6699/login"
+#     When Input user "dechbodin34@gmail.com" and password "dech0829299524TF"
+#     And Click Button login
+#     And Click module access control
+#     And Click menu business relation setup
+#     And Select company and branch
+#     And Input branch code
+#     And save
+#     Then Confirm to save
+
 # Scenario: case1: ทดสอบส่วนการไม่กรอกข้อมูลของบริษัทหรือสาขาภายในเครือ ของฟิลด์ Branch Code และกดบันทึก
+#     Given Open Website "http://203.154.82.165:6699/login"
+#     When Input user "dechbodin34@gmail.com" and password "dech0829299524TF"
+#     And Click Button login
+#     And Click module access control
+#     And Click menu business relation setup
+#     And Select company and branch
+#     And save
+#     Then Confirm to save
+
 # Scenario: case1: ทดสอบส่วนการเชื่อม Company
+#     Given Open Website "http://203.154.82.165:6699/login"
+#     When Input user "dechbodin34@gmail.com" and password "dech0829299524TF"
+#     And Click Button login
+#     And Click module access control
+#     And Click menu business relation setup
+#     Then Click sync company
