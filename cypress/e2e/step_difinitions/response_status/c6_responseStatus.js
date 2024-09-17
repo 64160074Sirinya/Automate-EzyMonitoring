@@ -1,0 +1,71 @@
+import { Given, When, Then, And } from 'cypress-cucumber-preprocessor/steps';
+
+Cypress.on('uncaught:exception', (err, runnable) => {
+    // returning false here prevents Cypress from
+    // failing the test
+    return false;
+})
+
+Given('Open Website {string}', (website) => {
+    cy.visit(website)
+})
+
+When('Input user {string} and password {string}', (user, password) => {
+    cy.get('.box-area-step-1 > .ant-input').type(user);
+    cy.get('.btn-login').click();
+    cy.get('.box-area-step-1 > .ant-input-affix-wrapper').type(password);
+    cy.get('.btn-login').click();
+})
+
+And('Click Button login', () => {
+    cy.get('.btn-login').click();
+})
+
+And('Click module master file', () => {
+    cy.get(':nth-child(2) > .tiffaDashboardMenu').click();
+    cy.wait(1000);
+})
+
+And('Click menu response status', () => {
+    // Click dropdown to select menu response type
+    cy.get('#menu_clickid-card-menu-toggle-home-icon0').click();
+    cy.wait(1000);
+    cy.get('#menu_clickcard-menu-sub-home-item-text-label5').click();
+    cy.wait(1000);
+})
+
+And('Click add response status', () => {
+    cy.get('[style="--ant-col-lg-flex: none;"] > .ant-row > .ant-col > .ant-btn').click();
+    cy.wait(1000);
+})
+
+And('Input response status information every fild', () => {
+    //Input Response Type
+    cy.get('#input-id').type('GCLD');
+    cy.wait(1000);
+    //Input Response Message
+    cy.get('#input-tex-id').type('TEST');
+    cy.wait(1000);
+    //Input Response Declaration Type
+    cy.get('#input-name-th').type('Export');
+    cy.wait(1000);
+    //Input Response Status ID
+    cy.get(':nth-child(5) > .ant-col-5 > #input-name-en').type('0000');
+    cy.wait(1000);
+    //Input Response Status Priority
+    cy.get(':nth-child(6) > .ant-col-5 > #input-name-en').type('0.1');
+    cy.wait(1000);
+    //Input Select Color (Optional)
+    // cy.contain('Red');
+    // cy.wait(1000);
+})
+
+And('Click save', () => {
+    cy.get(':nth-child(2) > .ant-btn').click();
+    cy.wait(1000);
+})
+
+Then('Click confirm to save', () => {
+    cy.get('.swal2-confirm').click();
+    cy.wait(1000);
+})
