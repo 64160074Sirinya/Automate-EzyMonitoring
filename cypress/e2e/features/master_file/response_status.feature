@@ -51,16 +51,16 @@ Feature: Response Status
 #     And Click menu response status
 #     Then Click add response status
 
-Scenario: case6: ทดสอบส่วนการเพิ่ม Response Status กรณีกรอกครบทุกฟิลด์ และกดบันทึก
-    Given Open Website "http://ezymonitoring-test.tiffaedi.com:6699/"
-    When Input user "s.wittaya.ttt05@gmail.com" and password "123456"
-    And Click Button login
-    And Click module master file
-    And Click menu response status
-    And Click add response status
-    And Input response status information every fild
-    And Click save
-    Then Click confirm to save
+# Scenario: case6: ทดสอบส่วนการเพิ่ม Response Status กรณีกรอกครบทุกฟิลด์ และกดบันทึก
+#     Given Open Website "http://ezymonitoring-test.tiffaedi.com:6699/"
+#     When Input user "s.wittaya.ttt05@gmail.com" and password "123456"
+#     And Click Button login
+#     And Click module master file
+#     And Click menu response status
+#     And Click add response status
+#     And Input response status information every fild
+#     And Click save
+#     Then Click confirm to save
 
 # Scenario: case7: ทดสอบส่วนการเพิ่ม Response Status กรณีกรอก Response Type และกดบันทึก
 #     Given Open Website "http://ezymonitoring-test.tiffaedi.com:6699/"

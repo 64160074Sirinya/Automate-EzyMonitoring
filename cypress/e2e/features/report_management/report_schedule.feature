@@ -1,11 +1,60 @@
 Feature: Report Scheduler
 
 # Scenario: case1: ทดสอบการเข้าหน้าจอ Report Scheduler Configuration
-# Scenario: case1: ทดสอบการค้นหาแบบ Globle Search Report Sheduler กรณีมีข้อมูลอยู่ในระบบ
-# Scenario: case1: ทดสอบการค้นหาแบบ Globle Search Report Sheduler กรณีไม่มีข้อมูลอยู่ในระบบ
-# Scenario: case1: ทดสอบการค้นหา Report Sheduler กรณียกเลิกคำค้นหาก่อนหน้า
-# Scenario: case1: ทดสอบส่วนการเข้าหน้าจอเพิ่ม Report Sheduler
-# Scenario: case1: ทดสอบส่่วนการเพิ่ม Report Sheduler กรณีเลือก Repeat และ Eligible Time เป็น Every Day กรอกครบทุกฟิลด์ และยืนยันการสร้าง Report Seheduler
+#     Given Open Website "http://ezymonitoring-test.tiffaedi.com:6699/"
+#     When Input user "s.wittaya.ttt05@gmail.com" and password "123456"
+#     And Click Button login
+#     And Click module report management
+#     Then Click menu Report Sheduler Configuration
+
+# Scenario: case2: ทดสอบการค้นหาแบบ Globle Search Report Sheduler กรณีมีข้อมูลอยู่ในระบบ
+#     Given Open Website "http://ezymonitoring-test.tiffaedi.com:6699/"
+#     When Input user "s.wittaya.ttt05@gmail.com" and password "123456"
+#     And Click Button login
+#     And Click module report management
+#     And Click menu Report Sheduler Configuration
+#     And Input Search it have already use
+#     Then Click search
+
+# Scenario: case3: ทดสอบการค้นหาแบบ Globle Search Report Sheduler กรณีไม่มีข้อมูลอยู่ในระบบ
+#     Given Open Website "http://ezymonitoring-test.tiffaedi.com:6699/"
+#     When Input user "s.wittaya.ttt05@gmail.com" and password "123456"
+#     And Click Button login
+#     And Click module report management
+#     And Click menu Report Sheduler Configuration
+#     And Input Search it not have already use
+#     Then Click search
+
+# Scenario: case4: ทดสอบการค้นหา Report Sheduler กรณียกเลิกคำค้นหาก่อนหน้า
+#     Given Open Website "http://ezymonitoring-test.tiffaedi.com:6699/"
+#     When Input user "s.wittaya.ttt05@gmail.com" and password "123456"
+#     And Click Button login
+#     And Click module report management
+#     And Click menu Report Sheduler Configuration
+#     And Input Search it have already use
+#     Then Click cancel search
+
+# Scenario: case5: ทดสอบส่วนการเข้าหน้าจอเพิ่ม Report Sheduler
+#     Given Open Website "http://ezymonitoring-test.tiffaedi.com:6699/"
+#     When Input user "s.wittaya.ttt05@gmail.com" and password "123456"
+#     And Click Button login
+#     And Click module report management
+#     And Click menu Report Sheduler Configuration
+#     Then Click add report shceduler
+
+# Scenario: case6: ทดสอบส่่วนการเพิ่ม Report Sheduler กรณีเลือก Repeat และ Eligible Time เป็น Every Day กรอกครบทุกฟิลด์ และยืนยันการสร้าง Report Seheduler
+#     Given Open Website "http://ezymonitoring-test.tiffaedi.com:6699/"
+#     When Input user "s.wittaya.ttt05@gmail.com" and password "123456"
+#     And Click Button login
+#     And Click module report management
+#     And Click menu Report Sheduler Configuration
+#     And Click add report shceduler
+#     And Select repeat
+#     And Select eligible time
+#     And Input destination path
+#     And Select report
+#     Then Click save and confirm
+
 # Scenario: case1: ทดสอบส่วนการเพิ่ม Report Sheduler กรณีเลือก Repeat และ Eligible Time เป็น Every Week กรอกครบทุกฟิลด์ และยืนยันการสร้าง Report Seheduler
 # Scenario: case1: ทดสอบส่่วนการเพิ่ม Report Sheduler กรณีเลือก Repeat และ Eligible Time เป็น Every Month กรอกครบทุกฟิลด์ และยืนยันการสร้าง Report Seheduler
 # Scenario: case1: ทดสอบส่วนการเพิ่ม Report Shecduler กรณีไม่ระบุ Repeat และยืนยันการสร้าง Report Sheduler

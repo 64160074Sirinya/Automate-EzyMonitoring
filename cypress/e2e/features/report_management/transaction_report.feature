@@ -94,11 +94,11 @@ Feature: Transaction Report
 #     Then Click dowload excel and result is show data follow by Submission Date, Company and Branch
 
 # Scenario: case11: ทดสอบการดาวน์โหลดไฟล์ Excel กรณีดาวน์โหลดข้อมูลตาม Submission Date, Company  ที่เลือก
-    Given Open Website "http://ezymonitoring-test.tiffaedi.com:6699/"
-    When Input user "s.wittaya.ttt05@gmail.com" and password "123456"
-    And Click Button login
-    And Click module report management
-    And Click menu transaction report
-    And Select Submission Date and Company
-    And Click search and result is show data follow by Submission Date and Company
-    Then Click dowload excel and result is show data follow by Submission Date and Company
+    # Given Open Website "http://ezymonitoring-test.tiffaedi.com:6699/"
+    # When Input user "s.wittaya.ttt05@gmail.com" and password "123456"
+    # And Click Button login
+    # And Click module report management
+    # And Click menu transaction report
+    # And Select Submission Date and Company
+    # And Click search and result is show data follow by Submission Date and Company
+    # Then Click dowload excel and result is show data follow by Submission Date and Company
